@@ -56,7 +56,7 @@ export const FloatingWhatsApp: React.FC<FloatingWhatsAppProps> = ({ onOpenWhatsa
   };
 
   return (
-    <div className="fixed bottom-5 right-5 z-40 flex flex-col items-end">
+    <div className="fixed bottom-4 right-4 sm:bottom-5 sm:right-5 z-40 flex flex-col items-end">
 
       {popoverVisible && (
         <div
@@ -108,7 +108,7 @@ export const FloatingWhatsApp: React.FC<FloatingWhatsAppProps> = ({ onOpenWhatsa
       <button
         id="floating-whatsapp-btn"
         onClick={togglePopover}
-        className="relative group p-4 rounded-full bg-[#25D366] text-white shadow-xl hover:bg-[#20ba5a] transition-all duration-300 active:scale-95 focus:outline-none focus-visible:ring-2 focus-visible:ring-[#25D366] focus-visible:ring-offset-2"
+        className="relative group p-3.5 sm:p-4 rounded-full bg-[#25D366] text-white shadow-xl hover:bg-[#20ba5a] transition-all duration-300 active:scale-95 focus:outline-none focus-visible:ring-2 focus-visible:ring-[#25D366] focus-visible:ring-offset-2"
         style={{ transitionTimingFunction: 'var(--ease-out-expo)' }}
         aria-label={popoverOpen ? 'Cerrar' : 'Abrir chat de WhatsApp'}
         aria-expanded={popoverOpen}
@@ -117,7 +117,7 @@ export const FloatingWhatsApp: React.FC<FloatingWhatsAppProps> = ({ onOpenWhatsa
           <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-[#25D366] opacity-75" />
           <span className="relative inline-flex rounded-full h-4 w-4 bg-[#128C7E]" />
         </span>
-        <WhatsAppIcon className="w-7 h-7" />
+        <WhatsAppIcon className="w-6 h-6 sm:w-7 sm:h-7" />
       </button>
 
     </div>
