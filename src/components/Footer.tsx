@@ -48,7 +48,7 @@ export const Footer: React.FC<FooterProps> = ({
               <p>La forma más rápida de comunicarte conmigo es por WhatsApp. Cuéntame qué está pasando y te oriento sin compromiso.</p>
               
               <button
-                onClick={() => onOpenWhatsapp('Hola, me gustaría agendar una sesión de psicología a domicilio.')}
+                onClick={() => onOpenWhatsapp('Hola, me gustaría agendar una sesión de psicología.')}
                 className="px-5 py-3 rounded-full bg-[#3B5242] text-white font-bold text-xs hover:bg-[#2C3E33] transition-all inline-flex items-center gap-2 shadow-xs focus:outline-none focus-visible:ring-2 focus-visible:ring-[#3B5242] btn-press cursor-pointer"
               >
                 <WhatsAppIcon className="w-4 h-4" aria-hidden="true" />

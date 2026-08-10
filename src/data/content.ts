@@ -6,65 +6,65 @@ export const SERVICES: Service[] = [
   {
     id: 'infantil',
     title: 'Terapia Infantil',
-    subtitle: 'Para que tu hijo se sienta mejor en casa',
+    subtitle: 'Acompañamiento para comprender y expresar sus emociones',
     iconName: 'Baby',
     category: 'infantil-juvenil',
-    description: 'Ayudamos a tu hijo a sentirse mejor en el lugar donde ya se siente seguro: su casa. A través del juego y conversaciones sencillas, entendemos qué le pasa y le damos herramientas para manejar sus emociones.',
+    description: 'Un espacio de acompañamiento psicológico para ayudar a tu hijo a comprender lo que siente, expresar sus emociones y desarrollar herramientas para afrontar distintas situaciones de su día a día.',
     targetAudience: 'Niños de 3 a 11 años',
     commonReasons: [
-      'Rabietas frecuentes o berrinches que te preocupan',
-      'Miedos o dificultad para separarse de ti',
-      'Cambios de comportamiento que notan en el colegio o en casa',
-      'Dificultades de atención o aprendizaje'
+      'Rabietas frecuentes o cambios de comportamiento',
+      'Miedos o dificultad para separarse de sus padres',
+      'Dificultades emocionales en casa o en el colegio',
+      'Problemas de atención, adaptación o aprendizaje'
     ],
     benefits: [
-      'Tu hijo se siente en confianza desde el primer día',
-      'Aprendes, como familia, cómo ayudarlo mejor',
-      'Ves cambios reales en el día a día'
+      'Un espacio donde puede expresarse con confianza',
+      'Herramientas para comprender y manejar sus emociones',
+      'Orientación para que la familia pueda acompañarlo mejor'
     ],
     duration: '45 - 50 min',
-    defaultWhatsappMessage: 'Hola, me gustaría información sobre la terapia para mi hijo o hija.'
+    defaultWhatsappMessage: 'Hola, me gustaría información sobre la terapia infantil.'
   },
   {
     id: 'padres',
     title: 'Orientación para Padres',
-    subtitle: 'Estrategias sencillas para criar con calma',
+    subtitle: 'Herramientas para acompañar mejor a tus hijos',
     iconName: 'Users',
     category: 'infantil-juvenil',
-    description: 'Criar no es fácil y no tienes que hacerlo a ciegas. Aprendemos juntos formas sencillas de poner límites con amor, comunicarte mejor con tus hijos y manejar las etapas difíciles con más tranquilidad.',
+    description: 'Un espacio para resolver dudas sobre crianza, comunicación y límites, y encontrar estrategias que te ayuden a acompañar mejor a tus hijos en cada etapa de su desarrollo.',
     targetAudience: 'Padres y cuidadores',
     commonReasons: [
-      'No sabes cómo poner límites sin gritar ni pelear',
-      'Tú y tu pareja no se ponen de acuerdo en la crianza',
-      'La adolescencia está siendo un reto',
-      'Las pantallas y las rutinas se volvieron una pelea diaria'
+      'Dificultad para establecer límites',
+      'Desacuerdos en la forma de criar',
+      'Cambios propios de la adolescencia',
+      'Conflictos relacionados con rutinas, estudios o uso de pantallas'
     ],
     benefits: [
-      'Herramientas que puedes usar desde la primera semana',
-      'Más paz y menos discusiones en casa',
-      'Entiendes mejor qué le pasa a tu hijo'
+      'Estrategias que puedes aplicar en casa',
+      'Mayor claridad para afrontar situaciones difíciles',
+      'Mejor comprensión de las necesidades de tus hijos'
     ],
     duration: '50 - 60 min',
     defaultWhatsappMessage: 'Hola, me gustaría información sobre la orientación para padres.'
   },
   {
     id: 'adolescentes',
-    title: 'Consejería para Adolescentes',
-    subtitle: 'Un espacio seguro para tu hijo',
+    title: 'Acompañamiento para Adolescentes',
+    subtitle: 'Un espacio para hablar, comprenderse y sentirse escuchado',
     iconName: 'Sparkles',
     category: 'infantil-juvenil',
-    description: 'La adolescencia puede sentirse como un torbellino. Le ofrecemos a tu hijo un espacio sin juicios donde hablar de lo que le preocupa, con total confidencialidad, y te acompañamos para que la comunicación en casa mejore.',
-    targetAudience: 'Jóvenes de 12 a 17 años',
+    description: 'Un espacio de confianza donde el adolescente pueda expresar lo que siente, hablar de sus preocupaciones y trabajar diferentes situaciones propias de esta etapa, con acompañamiento profesional.',
+    targetAudience: 'Adolescentes de 12 a 17 años',
     commonReasons: [
-      'Ansiedad por los estudios o miedo a socializar',
-      'Se aísla o siente que no vale lo suficiente',
-      'Ya no sabes cómo comunicarte con él o ella',
-      'Dudas sobre su futuro o qué estudiar'
+      'Ansiedad relacionada con estudios o relaciones sociales',
+      'Baja autoestima o inseguridad',
+      'Dificultades para comunicarse con la familia',
+      'Dudas sobre decisiones personales, estudios o futuro'
     ],
     benefits: [
-      'Un lugar donde se siente escuchado, sin miedo a ser juzgado',
-      'Recuperas la comunicación con tu hijo',
-      'Aprende a manejar sus emociones y decisiones'
+      'Un espacio donde puede sentirse escuchado',
+      'Herramientas para comprender y manejar sus emociones',
+      'Acompañamiento para afrontar decisiones y cambios'
     ],
     duration: '50 min',
     defaultWhatsappMessage: 'Hola, me gustaría información sobre el acompañamiento para adolescentes.'
@@ -72,21 +72,21 @@ export const SERVICES: Service[] = [
   {
     id: 'adultos',
     title: 'Terapia para Adultos',
-    subtitle: 'Bienestar y equilibrio para tu día a día',
+    subtitle: 'Un espacio para tu bienestar emocional',
     iconName: 'User',
     category: 'adultos-parejas',
-    description: 'Si sientes que el peso del día a día te está ganando, este espacio es para ti. Trabajamos juntos para entender lo que sientes y recuperar tu bienestar, en la comodidad de tu casa y en horarios que se adaptan a tu vida.',
-    targetAudience: 'Adultos de cualquier edad',
+    description: 'Acompañamiento psicológico para comprender lo que estás viviendo, trabajar aquello que hoy te preocupa y desarrollar herramientas que puedas aplicar en tu vida cotidiana.',
+    targetAudience: 'Adultos',
     commonReasons: [
-      'Ansiedad o la sensación de que no puedes más',
-      'Tristeza que no se va o un duelo pendiente',
-      'Estrés por el trabajo o la rutina',
-      'Te cuesta tomar decisiones importantes'
+      'Ansiedad o preocupación constante',
+      'Tristeza, duelo o cambios importantes',
+      'Estrés laboral o personal',
+      'Dificultad para tomar decisiones o afrontar determinadas situaciones'
     ],
     benefits: [
-      'Un espacio solo para ti, sin prisas y en casa',
-      'Horarios flexibles que se adaptan a tu rutina',
-      'Herramientas para sentirte mejor cada semana'
+      'Un espacio privado para hablar de lo que estás viviendo',
+      'Mayor comprensión de tus emociones y necesidades',
+      'Herramientas para afrontar situaciones del día a día'
     ],
     duration: '50 - 60 min',
     defaultWhatsappMessage: 'Hola, me gustaría información sobre la terapia para adultos.'
@@ -94,21 +94,21 @@ export const SERVICES: Service[] = [
   {
     id: 'pareja',
     title: 'Terapia de Pareja',
-    subtitle: 'Vuelvan a escucharse y conectar',
+    subtitle: 'Un espacio para escucharse y comprenderse mejor',
     iconName: 'HeartHandshake',
     category: 'adultos-parejas',
-    description: 'Toda pareja atraviesa momentos difíciles. Este espacio les ayuda a escucharse de nuevo, comunicarse mejor y decidir juntos qué quieren para su relación, con la guía de una profesional neutral.',
-    targetAudience: 'Parejas en cualquier etapa',
+    description: 'Un espacio de acompañamiento para trabajar dificultades en la relación, mejorar la comunicación y comprender las necesidades de ambos desde una mirada profesional y neutral.',
+    targetAudience: 'Parejas',
     commonReasons: [
-      'Discusiones que no llevan a nada',
-      'Sienten que se están distanciando',
-      'Problemas de confianza',
-      'Cambios grandes (hijos, mudanzas) que los desbordan'
+      'Discusiones frecuentes',
+      'Dificultades en la comunicación',
+      'Distanciamiento emocional',
+      'Problemas de confianza o cambios importantes en la relación'
     ],
     benefits: [
-      'Aprenden a conversar en lugar de discutir',
-      'Recuperan la conexión y la cercanía',
-      'Un espacio neutral donde ambos se sienten escuchados'
+      'Un espacio donde ambos puedan expresarse',
+      'Herramientas para mejorar la comunicación',
+      'Mayor claridad sobre las necesidades y dinámica de la relación'
     ],
     duration: '60 - 75 min',
     defaultWhatsappMessage: 'Hola, me gustaría información sobre la terapia de pareja.'
@@ -116,21 +116,21 @@ export const SERVICES: Service[] = [
   {
     id: 'familiar',
     title: 'Terapia Familiar',
-    subtitle: 'Que el hogar vuelva a ser un lugar de paz',
+    subtitle: 'Acompañamiento para mejorar la convivencia familiar',
     iconName: 'Home',
     category: 'adultos-parejas',
-    description: 'Cuando la convivencia se vuelve difícil, toda la familia lo siente. Trabajamos juntos para mejorar la comunicación, resolver conflictos y que el hogar vuelva a ser un espacio de calma y apoyo.',
-    targetAudience: 'Familias convivientes',
+    description: 'Acompañamiento psicológico orientado a mejorar la comunicación, comprender los conflictos y trabajar en conjunto las situaciones que están afectando la convivencia familiar.',
+    targetAudience: 'Familias',
     commonReasons: [
-      'Peleas frecuentes entre hermanos o con los padres',
-      'Duelo por la pérdida de un ser querido',
-      'Adaptación a una nueva familia',
-      'Una convivencia cada vez más tensa'
+      'Conflictos frecuentes entre miembros de la familia',
+      'Dificultades en la comunicación',
+      'Duelo o cambios importantes dentro de la familia',
+      'Problemas de convivencia'
     ],
     benefits: [
-      'Todos se sienten escuchados',
-      'Menos conflictos y más armonía en casa',
-      'Herramientas para comunicarse mejor en familia'
+      'Un espacio donde cada integrante pueda expresarse',
+      'Herramientas para mejorar la comunicación',
+      'Mayor comprensión de las dinámicas familiares'
     ],
     duration: '60 - 75 min',
     defaultWhatsappMessage: 'Hola, me gustaría información sobre la terapia familiar.'
@@ -138,23 +138,23 @@ export const SERVICES: Service[] = [
   {
     id: 'evaluaciones',
     title: 'Evaluaciones Psicológicas',
-    subtitle: 'Respuestas claras sobre desarrollo y aprendizaje',
+    subtitle: 'Conoce mejor diferentes aspectos del desarrollo y bienestar',
     iconName: 'ClipboardCheck',
     category: 'evaluaciones',
-    description: 'Si tienes dudas sobre el desarrollo, el aprendizaje o el estado emocional de tu hijo (o el tuyo), una evaluación da respuestas claras. Recibes un informe fácil de entender y recomendaciones prácticas para el colegio, el médico o la familia.',
+    description: 'Proceso de evaluación psicológica orientado a conocer diferentes aspectos emocionales, conductuales, cognitivos o del desarrollo. Al finalizar, se explican los resultados y las recomendaciones correspondientes.',
     targetAudience: 'Niños, adolescentes y adultos',
     commonReasons: [
-      'Dudas sobre el desarrollo o la madurez escolar de tu hijo',
-      'Sospecha de déficit de atención o alguna condición como el autismo',
-      'Preocupación por su estado emocional',
-      'Necesitan un informe para el colegio u otra institución'
+      'Dudas relacionadas con el desarrollo o aprendizaje',
+      'Dificultades de atención o comportamiento',
+      'Preocupaciones sobre el bienestar emocional',
+      'Necesidad de una evaluación psicológica específica'
     ],
     benefits: [
-      'Respuestas claras sobre qué le pasa y cómo ayudarlo',
-      'Un informe que entiendes y que sirve para el colegio o el médico',
-      'Recomendaciones prácticas para el día a día'
+      'Mayor claridad sobre la situación evaluada',
+      'Explicación comprensible de los resultados',
+      'Recomendaciones según las necesidades identificadas'
     ],
-    duration: '3 a 4 sesiones + Informe',
+    duration: 'Según el tipo de evaluación',
     defaultWhatsappMessage: 'Hola, me gustaría información sobre las evaluaciones psicológicas.'
   }
 ];

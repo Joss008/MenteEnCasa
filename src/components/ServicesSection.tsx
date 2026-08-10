@@ -66,10 +66,10 @@ export const ServicesSection: React.FC<ServicesSectionProps> = ({ onOpenWhatsapp
         {/* Section Header */}
         <div className="text-center max-w-3xl mx-auto space-y-4 reveal-on-scroll">
           <h2 className="text-3xl sm:text-4xl lg:text-5xl font-serif-editorial font-normal text-[#1F2421] tracking-tight">
-            ¿Qué necesitas para tu familia?
+            Encuentra el acompañamiento que necesitas
           </h2>
           <p className="text-base sm:text-lg text-[#525B54] leading-relaxed max-w-2xl mx-auto">
-            Cada familia es distinta y cada momento también. Encuentra aquí el acompañamiento que se ajusta a lo que estás viviendo, con una profesional que te escucha y te orienta.
+           Cada etapa trae retos distintos. Elige el tipo de acompañamiento psicológico que mejor se adapte a ti o a tu familia.
           </p>
         </div>
 

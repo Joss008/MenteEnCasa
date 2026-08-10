@@ -22,8 +22,8 @@ export const Logo: React.FC<LogoProps> = ({
   const subtextColor = isDark ? '#D1E0D7' : '#3D614A';
 
   const sizeMap = {
-    sm: { icon: 100, text: 'text-lg', subtext: 'text-[9px]' },
-    md: { icon: 100, text: 'text-xl sm:text-2xl', subtext: 'text-[10px]' },
+    sm: { icon: 72, text: 'text-lg', subtext: 'text-[9px]' },
+    md: { icon: 84, text: 'text-xl sm:text-2xl', subtext: 'text-[10px]' },
     lg: { icon: 100, text: 'text-2xl sm:text-3xl', subtext: 'text-xs' },
     xl: { icon: 100, text: 'text-3xl sm:text-4xl', subtext: 'text-sm' }
   };
@@ -96,13 +96,6 @@ export const Logo: React.FC<LogoProps> = ({
             style={{ color: blueColor }}
           >
             PSICOLOGÍA
-          </span>
-          <span className="text-[10px] opacity-40" style={{ color: textColor }}>•</span>
-          <span
-            className="font-sans font-medium text-[9px] sm:text-[10px] hidden sm:inline-block"
-            style={{ color: subtextColor }}
-          >
-            A domicilio
           </span>
         </div>
       </div>
