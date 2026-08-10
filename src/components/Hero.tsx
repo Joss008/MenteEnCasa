@@ -46,10 +46,10 @@ export const Hero: React.FC<HeroProps> = ({
 
             <div className="space-y-4">
               <h1 className="text-3xl sm:text-4xl lg:text-[2.75rem] font-serif-editorial font-normal text-[#1F2421] tracking-tight leading-[1.18]">
-                Tu bienestar emocional comienza en tu hogar
+                Tu bienestar emocional, estés donde estés
               </h1>
               <p className="text-base sm:text-lg text-[#525B54] font-normal leading-relaxed max-w-xl">
-                Acompañamiento psicológico para niños, adolescentes, adultos y familias en su bienestar emocional, ofreciendo atención personalizada en el lugar donde te sientes más cómodo, sin estrés y con total confidencialidad.
+                Acompañamiento psicológico para niños, adolescentes, adultos y familias en su bienestar emocional, ofreciendo atención personalizada, sin estrés y con total confidencialidad.
               </p>
             </div>
 
@@ -101,10 +101,10 @@ export const Hero: React.FC<HeroProps> = ({
           className="mt-16 pt-8 border-t border-[#E2DACB] grid grid-cols-2 md:grid-cols-4 gap-4 reveal-on-scroll"
         >
           {[
-            { icon: Home, title: 'La comodidad de tu casa', sub: 'Un espacio donde te relajas' },
-            { icon: Shield, title: 'Psicóloga colegiada CPsP', sub: 'Profesional titulada' },
-            { icon: Users, title: 'Para toda la familia', sub: 'Niños, jóvenes y adultos' },
-            { icon: MapPin, title: 'En Trujillo', sub: 'Coordinamos la zona contigo' },
+            { icon: Home, title: 'Atención 100% online', sub: 'Conéctate desde donde estés' },
+            { icon: Shield, title: 'Psicóloga colegiada CPsP', sub: 'Atención profesional y personalizada' },
+            { icon: Users, title: 'Para toda la familia', sub: 'Niños, adolescentes y adultos' },
+            { icon: MapPin, title: 'Horarios coordinados', sub: 'Agenda según tu disponibilidad' },
           ].map((item) => (
             <div
               key={item.title}

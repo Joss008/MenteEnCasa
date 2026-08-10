@@ -97,13 +97,6 @@ export const Logo: React.FC<LogoProps> = ({
           >
             PSICOLOGÍA
           </span>
-          <span className="text-[10px] opacity-40" style={{ color: textColor }}>•</span>
-          <span
-            className="font-sans font-medium text-[9px] sm:text-[10px] hidden sm:inline-block"
-            style={{ color: subtextColor }}
-          >
-            A domicilio
-          </span>
         </div>
       </div>
     </div>

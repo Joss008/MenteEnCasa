@@ -55,23 +55,40 @@ export const AboutPsychologists: React.FC<AboutPsychologistsProps> = ({ onOpenWh
 
 
             <h2 className="text-3xl sm:text-4xl lg:text-5xl font-serif-editorial font-normal text-[#1F2421] tracking-tight leading-[1.2]">
-              Soy Luciana Cerdeña,psicóloga titulada y colegiada..
+              Hola, soy Luciana Cerdeña, Licenciada en Psicología Humana
             </h2>
 
             <p className="text-base text-[#525B54] leading-relaxed">
-              Creo firmemente que sanar y crecer funciona mejor en un espacio seguro. Por eso, mi forma de trabajar es cercana, respetuosa y 100% adaptada a ti, a tu familia o al desarrollo de tus hijos.
+             Mi propósito es acompañarte a comprender lo que estás viviendo y brindarte herramientas que te ayuden a afrontar las dificultades de tu día a día.
             </p>
             <p className="text-base text-[#525B54] leading-relaxed">
-              Mi objetivo es simple: que salgas de cada sesión con más claridad, con herramientas prácticas y con la tranquilidad de saber que no estás solo o sola en esto.
+              
+            Cada proceso es único, por eso las sesiones se adaptan a tus necesidades, a las de tu familia o a las de tus hijos, en un espacio de confianza, respeto y confidencialidad.
             </p>
 
             {/* Quality Standards Grid */}
             <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 pt-2">
               {[
-                { icon: CheckCircle2, title: 'Colegiatura vigente', desc: 'Titulada y habilitada en el CPsP para ejercer en el Perú.' },
-                { icon: UserCheck, title: 'Datos verificados', desc: 'Recibes mis datos y credenciales antes de la primera sesión.' },
-                { icon: Shield, title: 'Profesionalismo en cada visita', desc: 'Puntualidad, respeto y cuidado en cada detalle.' },
-                { icon: FileText, title: 'Secreto profesional', desc: 'Lo que se habla en sesión, se queda en sesión. Tu privacidad está protegida.' },
+                {
+                  icon: CheckCircle2,
+                  title: 'Colegiatura vigente',
+                  desc: 'Licenciada, colegiada y habilitada para ejercer en el Perú.'
+                },
+                {
+                  icon: UserCheck,
+                  title: 'Atención personalizada',
+                  desc: 'Cada sesión se adapta a tus necesidades y objetivos.'
+                },
+                {
+                  icon: Shield,
+                  title: 'Sesiones 100% online',
+                  desc: 'Recibe atención desde un espacio cómodo y privado.'
+                },
+                {
+                  icon: FileText,
+                  title: 'Confidencialidad',
+                  desc: 'Tu información y lo conversado en sesión están protegidos.'
+                }
               ].map((item) => (
                 <div key={item.title} className="p-4 bg-[#F3EFE6] rounded-2xl border border-[#E2DACB] space-y-1">
                   <div className="flex items-center gap-2 text-xs font-bold text-[#1F2421]">
@@ -92,7 +109,7 @@ export const AboutPsychologists: React.FC<AboutPsychologistsProps> = ({ onOpenWh
                 className="btn-press px-7 py-3.5 rounded-full bg-[#3B5242] text-white font-bold text-xs sm:text-sm hover:bg-[#2C3E33] transition-colors duration-200 inline-flex items-center gap-2 shadow-xs cursor-pointer"
               >
                 <WhatsAppIcon className="w-4 h-4" />
-                <span>Escucho tu caso por WhatsApp</span>
+                <span>Agendar una sesión</span>
               </button>
             </div>
 

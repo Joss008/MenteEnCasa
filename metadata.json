@@ -1,6 +1,6 @@
 {
-  "name": "Mente en Casa - Psicología a Domicilio",
-  "description": "Landing page optimizada de conversión para servicio de psicología personalizada a domicilio en Trujillo, Perú.",
+  "name": "Mente en Casa - Psicología",
+  "description": "Landing page optimizada de conversión para servicio de psicología personalizada.",
   "requestFramePermissions": [],
   "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
 }
