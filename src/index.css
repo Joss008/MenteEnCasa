@@ -1,0 +1,337 @@
+@import "tailwindcss";
+
+/* Self-hosted fonts */
+@font-face {
+  font-family: 'Playfair Display';
+  font-style: normal;
+  font-weight: 400 700;
+  font-display: swap;
+  src: url('/fonts/PlayfairDisplay-latin.woff2') format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+@font-face {
+  font-family: 'Plus Jakarta Sans';
+  font-style: normal;
+  font-weight: 400 700;
+  font-display: swap;
+  src: url('/fonts/PlusJakartaSans-latin.woff2') format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+@layer base {
+  :root {
+    /* Easing curves */
+    --ease-out-expo: cubic-bezier(0.23, 1, 0.32, 1);
+    --ease-in-out: cubic-bezier(0.77, 0, 0.175, 1);
+    --ease-drawer: cubic-bezier(0.32, 0.72, 0, 1);
+    --ease-hover: cubic-bezier(0.4, 0, 0.2, 1);
+  }
+
+  html {
+    scroll-padding-top: 88px;
+  }
+
+  body {
+    font-family: 'Plus Jakarta Sans', system-ui, -apple-system, sans-serif;
+  }
+}
+
+.font-serif-editorial {
+  font-family: 'Playfair Display', Georgia, serif;
+}
+
+/* Organic Arch Frame Styles — responsive via clamp() */
+.arch-top {
+  border-radius: clamp(80px, 22vw, 180px) clamp(80px, 22vw, 180px) 16px 16px;
+}
+
+.arch-full {
+  border-radius: clamp(80px, 20vw, 160px);
+}
+
+.arch-asymmetric {
+  border-radius: clamp(80px, 22vw, 180px) 40px clamp(80px, 22vw, 180px) 40px;
+}
+
+.arch-left-round {
+  border-radius: clamp(80px, 22vw, 180px) 24px 24px clamp(80px, 22vw, 180px);
+}
+
+/* ─── Button press feedback ─── */
+.btn-press {
+  transition: transform 120ms var(--ease-out-expo);
+}
+.btn-press:active {
+  transform: scale(0.97);
+}
+
+.btn-press-strong {
+  transition: transform 120ms var(--ease-out-expo);
+}
+.btn-press-strong:active {
+  transform: scale(0.94);
+}
+
+/* ─── Card hover lift ─── */
+@media (hover: hover) and (pointer: fine) {
+  .card-hover {
+    transition: transform 250ms var(--ease-out-expo), box-shadow 250ms var(--ease-hover), border-color 200ms var(--ease-hover);
+  }
+  .card-hover:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 8px 30px -8px rgba(59, 82, 66, 0.12);
+  }
+}
+
+/* ─── Image reveal on scroll ─── */
+.reveal-on-scroll {
+  opacity: 0;
+  transform: translateY(12px);
+  transition: opacity 500ms var(--ease-out-expo), transform 500ms var(--ease-out-expo);
+}
+
+.reveal-on-scroll.revealed {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+/* ─── FAQ Accordion with grid-template-rows ─── */
+.faq-accordion-content {
+  display: grid;
+  grid-template-rows: 0fr;
+  transition: grid-template-rows 250ms var(--ease-out-expo);
+}
+
+.faq-accordion-content[data-open="true"] {
+  grid-template-rows: 1fr;
+}
+
+.faq-accordion-content > div {
+  overflow: hidden;
+}
+
+/* ─── Chevron rotation for FAQ ─── */
+.chevron-rotate {
+  transition: transform 200ms var(--ease-out-expo);
+}
+
+.chevron-rotate[data-open="true"] {
+  transform: rotate(180deg);
+}
+
+/* ─── Modal animations ─── */
+.modal-backdrop-enter {
+  opacity: 0;
+}
+.modal-backdrop-enter-active {
+  opacity: 1;
+  transition: opacity 200ms ease-out;
+}
+.modal-backdrop-exit {
+  opacity: 1;
+}
+.modal-backdrop-exit-active {
+  opacity: 0;
+  transition: opacity 150ms ease-in;
+}
+
+.modal-content-enter {
+  opacity: 0;
+  transform: scale(0.96);
+}
+.modal-content-enter-active {
+  opacity: 1;
+  transform: scale(1);
+  transition: opacity 250ms var(--ease-out-expo), transform 250ms var(--ease-out-expo);
+}
+.modal-content-exit {
+  opacity: 1;
+  transform: scale(1);
+}
+.modal-content-exit-active {
+  opacity: 0;
+  transform: scale(0.97);
+  transition: opacity 150ms ease-in, transform 150ms ease-in;
+}
+
+/* ─── Popover from bottom-right ─── */
+.popover-enter {
+  opacity: 0;
+  transform: scale(0.92) translateY(8px);
+  transform-origin: bottom right;
+}
+.popover-enter-active {
+  opacity: 1;
+  transform: scale(1) translateY(0);
+  transform-origin: bottom right;
+  transition: opacity 200ms var(--ease-out-expo), transform 200ms var(--ease-out-expo);
+}
+.popover-exit {
+  opacity: 1;
+  transform: scale(1) translateY(0);
+  transform-origin: bottom right;
+}
+.popover-exit-active {
+  opacity: 0;
+  transform: scale(0.95) translateY(4px);
+  transform-origin: bottom right;
+  transition: opacity 120ms ease-in, transform 120ms ease-in;
+}
+
+/* ─── Drawer animation ─── */
+.drawer-enter {
+  opacity: 0;
+  transform: translateY(-8px);
+}
+.drawer-enter-active {
+  opacity: 1;
+  transform: translateY(0);
+  transition: opacity 200ms var(--ease-drawer), transform 250ms var(--ease-drawer);
+}
+.drawer-exit {
+  opacity: 1;
+  transform: translateY(0);
+}
+.drawer-exit-active {
+  opacity: 0;
+  transform: translateY(-6px);
+  transition: opacity 120ms ease-in, transform 150ms ease-in;
+}
+
+/* ─── Image zoom on hover ─── */
+@media (hover: hover) and (pointer: fine) {
+  .img-hover-zoom {
+    transition: transform 400ms var(--ease-out-expo);
+  }
+  .img-hover-zoom:hover {
+    transform: scale(1.03);
+  }
+
+  .img-hover-zoom-subtle {
+    transition: transform 350ms var(--ease-out-expo);
+  }
+  .img-hover-zoom-subtle:hover {
+    transform: scale(1.02);
+  }
+}
+
+/* ─── Progress bar fill ─── */
+.progress-fill {
+  transition: width 300ms var(--ease-out-expo);
+}
+
+/* ─── Nav link active state ─── */
+.nav-link {
+  transition: background-color 200ms var(--ease-hover), color 150ms var(--ease-hover);
+}
+
+/* ─── Soft scrollbar ─── */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+::-webkit-scrollbar-track {
+  background: #f4f3f1;
+}
+::-webkit-scrollbar-thumb {
+  background: #c2c8c1;
+  border-radius: 9999px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #737973;
+}
+
+/* ─── Reduced motion ─── */
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}
+
+/* ─── Skip to content ─── */
+.skip-to-content {
+  position: absolute;
+  top: -100%;
+  left: 16px;
+  z-index: 9999;
+  padding: 12px 24px;
+  background: #3B5242;
+  color: #FAF7F2;
+  font-weight: 700;
+  font-size: 14px;
+  border-radius: 0 0 12px 12px;
+  transition: top 0.2s;
+}
+.skip-to-content:focus {
+  top: 0;
+}
+
+/* ─── Print / PDF styles ─── */
+@media print {
+  * {
+    -webkit-print-color-adjust: exact !important;
+    print-color-adjust: exact !important;
+    color-adjust: exact !important;
+  }
+
+  html, body {
+    background: #FAF7F2 !important;
+    margin: 0;
+    padding: 0;
+  }
+
+  body {
+    font-size: 11pt;
+    line-height: 1.5;
+  }
+
+  /* Hide non-essential elements */
+  nav, footer, button, a[href^="tel:"], a[href^="mailto:"],
+  .skip-to-content, [role="navigation"],
+  iframe, video, audio, canvas {
+    display: none !important;
+  }
+
+  /* Remove animations and transitions */
+  *, *::before, *::after {
+    animation-duration: 0s !important;
+    animation-delay: 0s !important;
+    transition-duration: 0s !important;
+    transform: none !important;
+  }
+
+  /* Ensure images and backgrounds print */
+  img, svg {
+    max-width: 100% !important;
+    page-break-inside: avoid;
+  }
+
+  /* Page breaks */
+  section {
+    page-break-inside: avoid;
+    break-inside: avoid;
+  }
+
+  h1, h2, h3, h4 {
+    page-break-after: avoid;
+    break-after: avoid;
+  }
+
+  /* Clean links */
+  a {
+    text-decoration: none !important;
+    color: inherit !important;
+  }
+
+  /* Page margins */
+  @page {
+    margin: 1.5cm;
+    size: A4 portrait;
+  }
+}
