@@ -55,7 +55,7 @@ export const AboutPsychologists: React.FC<AboutPsychologistsProps> = ({ onOpenWh
 
 
             <h2 className="text-3xl sm:text-4xl lg:text-5xl font-serif-editorial font-normal text-[#1F2421] tracking-tight leading-[1.2]">
-              Soy Luciana Cerdeña,psicóloga titulada y colegiada..
+              Soy Luciana Cerdeña,psicóloga titulada y colegiada.
             </h2>
 
             <p className="text-base text-[#525B54] leading-relaxed">

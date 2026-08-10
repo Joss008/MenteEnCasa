@@ -169,13 +169,13 @@ export const PROCESS_STEPS = [
   {
     step: '02',
     title: 'Coordinamos tu primera cita',
-    description: 'Acordamos la fecha, hora y zona en Trujillo. Antes de la sesión recibes los datos de la psicóloga para que llegues con toda la confianza.',
+    description: 'Acordamos la fecha y hora. Antes de la sesión recibes los datos de la psicóloga para tu total seguridad y confianza.',
     icon: 'CalendarCheck'
   },
   {
     step: '03',
     title: 'La sesión, en tu espacio',
-    description: 'La psicóloga llega puntual a tu casa y te acompaña en un ambiente cómodo, respetando siempre tu privacidad.',
+    description: 'La psicóloga llega tu casa y te acompaña en un ambiente cómodo, respetando siempre tu privacidad.',
     icon: 'Home'
   },
   {
@@ -188,7 +188,7 @@ export const PROCESS_STEPS = [
 
 export const TRUST_POINTS = [
   {
-    title: 'La comodidad de tu casa',
+    title: 'La comodidad de tu zona de confianza',
     description: 'Hablar donde uno se siente seguro hace toda la diferencia: los niños se relajan antes y la familia se abre con más facilidad.',
     icon: 'HomeHeart'
   },
