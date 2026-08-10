@@ -1,6 +1,6 @@
 import { Service, OrientationQuestion, TrujilloDistrict, FaqItem, AuditSection, Testimonial } from '../types';
 
-export const WHATSAPP_NUMBER = import.meta.env.VITE_WHATSAPP_NUMBER || '51987654321';
+export const WHATSAPP_NUMBER = import.meta.env.VITE_WHATSAPP_NUMBER || '51989479954';
 
 export const SERVICES: Service[] = [
   {
