@@ -75,7 +75,7 @@ export const ProcessSection: React.FC<ProcessSectionProps> = ({ onOpenWhatsapp }
                 <h3 className="text-lg font-serif-editorial font-normal text-[#1F2421] mb-2">
                   {step.title}
                 </h3>
-                
+
                 <p className="text-xs text-[#525B54] leading-relaxed">
                   {step.description}
                 </p>

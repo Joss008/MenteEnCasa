@@ -1,5 +1,5 @@
 import React, { useEffect, useRef } from 'react';
-import { Shield, Award, CheckCircle2, UserCheck, FileText } from 'lucide-react';
+import { Shield, CheckCircle2, UserCheck, FileText } from 'lucide-react';
 import { WhatsAppIcon } from './WhatsAppIcon';
 
 interface AboutPsychologistsProps {
@@ -53,17 +53,15 @@ export const AboutPsychologists: React.FC<AboutPsychologistsProps> = ({ onOpenWh
           {/* Right Column: Narrative */}
           <div className="lg:col-span-7 space-y-6 text-left reveal-on-scroll" style={{ transitionDelay: '100ms' }}>
 
-
             <h2 className="text-3xl sm:text-4xl lg:text-5xl font-serif-editorial font-normal text-[#1F2421] tracking-tight leading-[1.2]">
-              Hola, soy Luciana Cerdeña, Licenciada en Psicología Humana
+              Hola, soy Luciana Cerdeña, psicóloga titulada y colegiada.
             </h2>
 
             <p className="text-base text-[#525B54] leading-relaxed">
-             Mi propósito es acompañarte a comprender lo que estás viviendo y brindarte herramientas que te ayuden a afrontar las dificultades de tu día a día.
+              Mi propósito es acompañarte a comprender lo que estás viviendo y brindarte herramientas que te ayuden a afrontar las dificultades de tu día a día.
             </p>
             <p className="text-base text-[#525B54] leading-relaxed">
-              
-            Cada proceso es único, por eso las sesiones se adaptan a tus necesidades, a las de tu familia o a las de tus hijos, en un espacio de confianza, respeto y confidencialidad.
+              Cada proceso es único, por eso las sesiones se adaptan a tus necesidades, a las de tu familia o a las de tus hijos, en un espacio de confianza, respeto y confidencialidad.
             </p>
 
             {/* Quality Standards Grid */}
