@@ -1,0 +1,4 @@
+- Prefiere eliminar código muerto (tipos, datos, imports no utilizados) y mantener la base de código limpia. Confidence: 0.7
+- Prefiere la metodología Mobile-First con Tailwind CSS: diseñar primero las clases para móvil y ajustar para escritorio mediante breakpoints (`sm:`, `md:`, `lg:`). Confidence: 0.9
+- Prefiere interfaces TypeScript explícitas para todas las props de componentes, evitando `any` implícito. Confidence: 0.9
+- Prefiere preservar la paleta de colores e identidad visual existente al realizar refactorizaciones. Confidence: 0.8

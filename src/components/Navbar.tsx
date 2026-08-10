@@ -146,7 +146,7 @@ export const Navbar: React.FC<NavbarProps> = ({
       {drawerVisible && (
         <div
           id="mobile-menu"
-          className={`lg:hidden bg-[#FAF7F2] border-b border-[#E2DACB] px-4 pt-4 pb-6 space-y-4 shadow-xl ${
+          className={`md:hidden bg-[#FAF7F2] border-b border-[#E2DACB] px-4 pt-4 pb-6 space-y-4 shadow-xl ${
             drawerState === 'enter' ? 'drawer-enter' :
             drawerState === 'enter-active' ? 'drawer-enter-active' :
             drawerState === 'exit' ? 'drawer-exit' :

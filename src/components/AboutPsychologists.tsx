@@ -67,7 +67,7 @@ export const AboutPsychologists: React.FC<AboutPsychologistsProps> = ({ onOpenWh
             </p>
 
             <p className="text-base text-[#525B54] leading-relaxed">
-              No necesitas desplazarte, esperar en salas de等候 o adaptar tu horario. Llego a tu domicilio con toda la confidencialidad, profesionalismo y calidez que mereces.
+              No necesitas desplazarte, esperar en salas de espera o adaptar tu horario. Llego a tu domicilio con toda la confidencialidad, profesionalismo y calidez que mereces.
             </p>
 
             {/* Quality Standards Grid */}

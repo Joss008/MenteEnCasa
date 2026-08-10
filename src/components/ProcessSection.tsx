@@ -49,7 +49,7 @@ export const ProcessSection: React.FC<ProcessSectionProps> = ({ onOpenWhatsapp }
             Mi Metodología
           </div>
           <h2 className="text-3xl sm:text-4xl lg:text-5xl font-serif-editorial font-normal text-[#1F2421] tracking-tight">
-            Cómo trabajo conmigo
+            Así trabajaremos juntos
           </h2>
           <p className="text-base sm:text-lg text-[#525B54] leading-relaxed">
             Un proceso sencillo, transparente y diseñado para que te sientas seguro desde el primer contacto hasta cada sesión.

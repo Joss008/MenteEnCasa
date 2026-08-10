@@ -48,7 +48,7 @@ export const Footer: React.FC<FooterProps> = ({
             </p>
 
             <div className="space-y-3 text-xs text-[#EBE4D8]">
-              <p>La forma más rápida de comunicarte conmigo es por WhatsApp. Respondo en menos de 15 minutos.</p>
+              <p>La forma más rápida de comunicarte conmigo es por WhatsApp.</p>
               
               <button
                 onClick={() => onOpenWhatsapp('Hola, me gustaría agendar una sesión de psicología a domicilio.')}
