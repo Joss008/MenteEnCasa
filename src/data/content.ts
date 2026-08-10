@@ -6,205 +6,205 @@ export const SERVICES: Service[] = [
   {
     id: 'infantil',
     title: 'Terapia Infantil',
-    subtitle: 'Niños de 3 a 11 años en su hogar',
+    subtitle: 'Para que tu hijo se sienta mejor en casa',
     iconName: 'Baby',
     category: 'infantil-juvenil',
-    description: 'Acompañamiento lúdico y adaptativo para niños en su entorno natural. Incluye necesidades especiales.',
+    description: 'Ayudamos a tu hijo a sentirse mejor en el lugar donde ya se siente seguro: su casa. A través del juego y conversaciones sencillas, entendemos qué le pasa y le damos herramientas para manejar sus emociones.',
     targetAudience: 'Niños de 3 a 11 años',
     commonReasons: [
-      'Rabietas o dificultad de autorregulación',
-      'Ansiedad por separación o miedos',
-      'Cambios conductuales',
-      'Necesidades especiales'
+      'Rabietas frecuentes o berrinches que te preocupan',
+      'Miedos o dificultad para separarse de ti',
+      'Cambios de comportamiento que notan en el colegio o en casa',
+      'Dificultades de atención o aprendizaje'
     ],
     benefits: [
-      'Evaluación del entorno real del niño',
-      'Juego terapéutico familiar',
-      'Sin resistencia al no ir a consultorio'
+      'Tu hijo se siente en confianza desde el primer día',
+      'Aprendes, como familia, cómo ayudarlo mejor',
+      'Ves cambios reales en el día a día'
     ],
     duration: '45 - 50 min',
-    defaultWhatsappMessage: 'Hola, me gustaría información sobre Terapia Infantil a domicilio.'
+    defaultWhatsappMessage: 'Hola, me gustaría información sobre la terapia para mi hijo o hija.'
   },
   {
     id: 'padres',
     title: 'Orientación para Padres',
-    subtitle: 'Herramientas prácticas de crianza',
+    subtitle: 'Estrategias sencillas para criar con calma',
     iconName: 'Users',
     category: 'infantil-juvenil',
-    description: 'Sesiones para dotar a padres de estrategias de crianza respetuosa, límites y comunicación asertiva.',
+    description: 'Criar no es fácil y no tienes que hacerlo a ciegas. Aprendemos juntos formas sencillas de poner límites con amor, comunicarte mejor con tus hijos y manejar las etapas difíciles con más tranquilidad.',
     targetAudience: 'Padres y cuidadores',
     commonReasons: [
-      'Dificultad para establecer límites',
-      'Desacuerdos en la crianza',
-      'Etapas difíciles (adolescencia)',
-      'Uso de pantallas y rutinas'
+      'No sabes cómo poner límites sin gritar ni pelear',
+      'Tú y tu pareja no se ponen de acuerdo en la crianza',
+      'La adolescencia está siendo un reto',
+      'Las pantallas y las rutinas se volvieron una pelea diaria'
     ],
     benefits: [
-      'Análisis de rutinas reales',
-      'Estrategias aplicables de inmediato',
-      'Ambiente íntimo y cómodo'
+      'Herramientas que puedes usar desde la primera semana',
+      'Más paz y menos discusiones en casa',
+      'Entiendes mejor qué le pasa a tu hijo'
     ],
     duration: '50 - 60 min',
-    defaultWhatsappMessage: 'Hola, me gustaría información sobre Orientación para Padres a domicilio.'
+    defaultWhatsappMessage: 'Hola, me gustaría información sobre la orientación para padres.'
   },
   {
     id: 'adolescentes',
     title: 'Consejería para Adolescentes',
-    subtitle: 'Espacio confidencial para jóvenes',
+    subtitle: 'Un espacio seguro para tu hijo',
     iconName: 'Sparkles',
     category: 'infantil-juvenil',
-    description: 'Atención empática adaptada a la realidad juvenil. Ansiedad, autoestima, identidad y relaciones familiares.',
+    description: 'La adolescencia puede sentirse como un torbellino. Le ofrecemos a tu hijo un espacio sin juicios donde hablar de lo que le preocupa, con total confidencialidad, y te acompañamos para que la comunicación en casa mejore.',
     targetAudience: 'Jóvenes de 12 a 17 años',
     commonReasons: [
-      'Ansiedad escolar o fobia social',
-      'Aislamiento o baja autoestima',
-      'Dificultad para comunicarse con la familia',
-      'Orientación vocacional'
+      'Ansiedad por los estudios o miedo a socializar',
+      'Se aísla o siente que no vale lo suficiente',
+      'Ya no sabes cómo comunicarte con él o ella',
+      'Dudas sobre su futuro o qué estudiar'
     ],
     benefits: [
-      'Confidencialidad garantizada',
-      'En su espacio personal cómodo',
-      'Puente de comunicación con padres'
+      'Un lugar donde se siente escuchado, sin miedo a ser juzgado',
+      'Recuperas la comunicación con tu hijo',
+      'Aprende a manejar sus emociones y decisiones'
     ],
     duration: '50 min',
-    defaultWhatsappMessage: 'Hola, me gustaría información sobre Consejería para Adolescentes a domicilio.'
+    defaultWhatsappMessage: 'Hola, me gustaría información sobre el acompañamiento para adolescentes.'
   },
   {
     id: 'adultos',
     title: 'Terapia para Adultos',
-    subtitle: 'Salud mental y crecimiento personal',
+    subtitle: 'Bienestar y equilibrio para tu día a día',
     iconName: 'User',
     category: 'adultos-parejas',
-    description: 'Proceso terapéutico individual para ansiedad, depresión, burnout o crisis vitales. Sin traslados.',
+    description: 'Si sientes que el peso del día a día te está ganando, este espacio es para ti. Trabajamos juntos para entender lo que sientes y recuperar tu bienestar, en la comodidad de tu casa y en horarios que se adaptan a tu vida.',
     targetAudience: 'Adultos de cualquier edad',
     commonReasons: [
-      'Ansiedad o ataques de pánico',
-      'Tristeza o duelo no elaborado',
-      'Estrés crónico o sobrecarga laboral',
-      'Dificultad para tomar decisiones'
+      'Ansiedad o la sensación de que no puedes más',
+      'Tristeza que no se va o un duelo pendiente',
+      'Estrés por el trabajo o la rutina',
+      'Te cuesta tomar decisiones importantes'
     ],
     benefits: [
-      'Sin tiempo de traslado',
-      'En tu sala o estudio privado',
-      'Flexibilidad horaria'
+      'Un espacio solo para ti, sin prisas y en casa',
+      'Horarios flexibles que se adaptan a tu rutina',
+      'Herramientas para sentirte mejor cada semana'
     ],
     duration: '50 - 60 min',
-    defaultWhatsappMessage: 'Hola, me gustaría información sobre Terapia para Adultos a domicilio.'
+    defaultWhatsappMessage: 'Hola, me gustaría información sobre la terapia para adultos.'
   },
   {
     id: 'pareja',
     title: 'Terapia de Pareja',
-    subtitle: 'Mejora la comunicación y fortalece el vínculo',
+    subtitle: 'Vuelvan a escucharse y conectar',
     iconName: 'HeartHandshake',
     category: 'adultos-parejas',
-    description: 'Espacio de mediación para mejorar la comunicación, superar crisis y tomar decisiones constructivas.',
+    description: 'Toda pareja atraviesa momentos difíciles. Este espacio les ayuda a escucharse de nuevo, comunicarse mejor y decidir juntos qué quieren para su relación, con la guía de una profesional neutral.',
     targetAudience: 'Parejas en cualquier etapa',
     commonReasons: [
-      'Discusiones frecuentes',
-      'Distanciamiento afectivo',
-      'Crisis de confianza',
-      'Cambios de vida (hijos, mudanza)'
+      'Discusiones que no llevan a nada',
+      'Sienten que se están distanciando',
+      'Problemas de confianza',
+      'Cambios grandes (hijos, mudanzas) que los desbordan'
     ],
     benefits: [
-      'Neutralidad profesional',
-      'Horarios flexibles para ambos',
-      'Técnicas aplicables en pareja'
+      'Aprenden a conversar en lugar de discutir',
+      'Recuperan la conexión y la cercanía',
+      'Un espacio neutral donde ambos se sienten escuchados'
     ],
     duration: '60 - 75 min',
-    defaultWhatsappMessage: 'Hola, me gustaría información sobre Terapia de Pareja a domicilio.'
+    defaultWhatsappMessage: 'Hola, me gustaría información sobre la terapia de pareja.'
   },
   {
     id: 'familiar',
     title: 'Terapia Familiar',
-    subtitle: 'Fortalece vínculos y mejora la convivencia',
+    subtitle: 'Que el hogar vuelva a ser un lugar de paz',
     iconName: 'Home',
     category: 'adultos-parejas',
-    description: 'Intervención sistémica para resolver conflictos familiares y mejorar la convivencia en el hogar.',
+    description: 'Cuando la convivencia se vuelve difícil, toda la familia lo siente. Trabajamos juntos para mejorar la comunicación, resolver conflictos y que el hogar vuelva a ser un espacio de calma y apoyo.',
     targetAudience: 'Familias convivientes',
     commonReasons: [
-      'Conflictos entre hermanos o padres e hijos',
-      'Pérdida de un familiar',
-      'Adaptación a familias ensambladas',
-      'Dificultades de convivencia'
+      'Peleas frecuentes entre hermanos o con los padres',
+      'Duelo por la pérdida de un ser querido',
+      'Adaptación a una nueva familia',
+      'Una convivencia cada vez más tensa'
     ],
     benefits: [
-      'Todos los integrantes en su entorno',
-      'Mayor disposición al estar en casa',
-      'Observación de la dinámica real'
+      'Todos se sienten escuchados',
+      'Menos conflictos y más armonía en casa',
+      'Herramientas para comunicarse mejor en familia'
     ],
     duration: '60 - 75 min',
-    defaultWhatsappMessage: 'Hola, me gustaría información sobre Terapia Familiar a domicilio.'
+    defaultWhatsappMessage: 'Hola, me gustaría información sobre la terapia familiar.'
   },
   {
     id: 'evaluaciones',
     title: 'Evaluaciones Psicológicas',
-    subtitle: 'Informes formales y diagnóstico integral',
+    subtitle: 'Respuestas claras sobre desarrollo y aprendizaje',
     iconName: 'ClipboardCheck',
     category: 'evaluaciones',
-    description: 'Evaluación con pruebas estandarizadas e informes detallados para fines escolares, médicos o legales.',
+    description: 'Si tienes dudas sobre el desarrollo, el aprendizaje o el estado emocional de tu hijo (o el tuyo), una evaluación da respuestas claras. Recibes un informe fácil de entender y recomendaciones prácticas para el colegio, el médico o la familia.',
     targetAudience: 'Niños, adolescentes y adultos',
     commonReasons: [
-      'Desarrollo infantil y madurez escolar',
-      'TDAH o espectro autista',
-      'Evaluación socioemocional',
-      'Informe para instituciones'
+      'Dudas sobre el desarrollo o la madurez escolar de tu hijo',
+      'Sospecha de déficit de atención o alguna condición como el autismo',
+      'Preocupación por su estado emocional',
+      'Necesitan un informe para el colegio u otra institución'
     ],
     benefits: [
-      'Sin estrés de ambiente hospitalario',
-      'Informe con devolución de resultados',
-      'Pautas claras de intervención'
+      'Respuestas claras sobre qué le pasa y cómo ayudarlo',
+      'Un informe que entiendes y que sirve para el colegio o el médico',
+      'Recomendaciones prácticas para el día a día'
     ],
     duration: '3 a 4 sesiones + Informe',
-    defaultWhatsappMessage: 'Hola, me gustaría información sobre Evaluaciones Psicológicas a domicilio.'
+    defaultWhatsappMessage: 'Hola, me gustaría información sobre las evaluaciones psicológicas.'
   }
 ];
 
 export const PROCESS_STEPS = [
   {
     step: '01',
-    title: 'Contacto e Indagación Inicial',
-    description: 'Escríbenos por WhatsApp. Te escucharemos brevemente para entender la necesidad y orientarte sobre la modalidad adecuada sin compromiso.',
+    title: 'Nos escribes y te escuchamos',
+    description: 'Cuéntanos por WhatsApp qué está pasando. Te escuchamos sin compromiso y te orientamos sobre cuál es el mejor acompañamiento para tu caso.',
     icon: 'MessageCircle'
   },
   {
     step: '02',
-    title: 'Coordinación de Cita y Ubicación',
-    description: 'Acordamos juntos la fecha, hora y dirección en Trujillo. Te enviaremos el perfil del psicólogo colegiado asignado para tu absoluta tranquilidad.',
+    title: 'Coordinamos tu primera cita',
+    description: 'Acordamos la fecha, hora y zona en Trujillo. Antes de la sesión recibes los datos de la psicóloga para que llegues con toda la confianza.',
     icon: 'CalendarCheck'
   },
   {
     step: '03',
-    title: 'Visita del Especialista a tu Hogar',
-    description: 'El profesional acude a tu domicilio respetando tu privacidad, espacio e higiene. Realiza la atención en un ambiente cómodo de tu vivienda.',
+    title: 'La sesión, en tu espacio',
+    description: 'La psicóloga llega puntual a tu casa y te acompaña en un ambiente cómodo, respetando siempre tu privacidad.',
     icon: 'Home'
   },
   {
     step: '04',
-    title: 'Plan de Acompañamiento y Pautas',
-    description: 'Al finalizar la sesión, se brindan recomendaciones prácticas para la semana y se acuerda la continuidad según la evolución del caso.',
+    title: 'Te vas con un plan claro',
+    description: 'Al finalizar, recibes recomendaciones prácticas para la semana y acordamos los siguientes pasos según tu evolución.',
     icon: 'ShieldCheck'
   }
 ];
 
 export const TRUST_POINTS = [
   {
-    title: 'Atención en tu Espacio Seguro',
-    description: 'Estar en casa elimina la tensión de los consultorios frios y permite observar las conductas en su contexto real.',
+    title: 'La comodidad de tu casa',
+    description: 'Hablar donde uno se siente seguro hace toda la diferencia: los niños se relajan antes y la familia se abre con más facilidad.',
     icon: 'HomeHeart'
   },
   {
-    title: 'Psicólogos Colegiados y Habilitados',
-    description: 'Todos los profesionales cuentan con colegiatura en el CPsP (Colegio de Psicólogos del Perú) y experiencia comprobada.',
+    title: 'Psicóloga colegiada y con experiencia',
+    description: 'Te acompaña una profesional titulada, colegiada en el CPsP y con experiencia real acompañando a familias.',
     icon: 'Award'
   },
   {
-    title: 'Absoluta Confidencialidad y Privacidad',
-    description: 'Nadie sabrá que estás recibiendo atención. Discreción total en el ingreso a tu hogar en Trujillo.',
+    title: 'Confidencialidad total',
+    description: 'Todo lo que se hable en las sesiones queda entre nosotros. Tu privacidad y la de tu familia están protegidas.',
     icon: 'Lock'
   },
   {
-    title: 'Cero Estrés de Traslados',
-    description: 'Olvídate del tráfico de Trujillo, el transporte o buscar estacionamiento. Aprovecha tu tiempo en familia.',
+    title: 'Horarios que se adaptan a ti',
+    description: 'Nada de alterar toda la rutina familiar: coordinamos horarios que funcionen para ti y los tuyos.',
     icon: 'Clock'
   }
 ];

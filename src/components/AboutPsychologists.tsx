@@ -53,30 +53,25 @@ export const AboutPsychologists: React.FC<AboutPsychologistsProps> = ({ onOpenWh
           {/* Right Column: Narrative */}
           <div className="lg:col-span-7 space-y-6 text-left reveal-on-scroll" style={{ transitionDelay: '100ms' }}>
 
-            <div className="inline-flex items-center gap-2 px-4 py-1.5 rounded-full bg-[#F3EFE6] border border-[#E2DACB] text-[#3B5242] text-xs font-semibold tracking-wider">
-              <Award className="w-3.5 h-3.5 text-[#3B5242]" />
-              <span>Psicóloga Clínica Certificada</span>
-            </div>
 
             <h2 className="text-3xl sm:text-4xl lg:text-5xl font-serif-editorial font-normal text-[#1F2421] tracking-tight leading-[1.2]">
-              Soy la psicóloga que va a tu hogar
+              Soy Luciana Cerdeña,psicóloga titulada y colegiada..
             </h2>
 
             <p className="text-base text-[#525B54] leading-relaxed">
-              Soy psicóloga clínica titulada y colegiada en el CPsP. Creo firmemente que la terapia funciona mejor en un espacio donde te sientas seguro y cómodo: tu hogar. Mi enfoque es empático, basado en evidencia y adaptado a las necesidades reales de cada persona, incluyendo niños con habilidades especiales.
+              Creo firmemente que sanar y crecer funciona mejor en un espacio seguro. Por eso, mi forma de trabajar es cercana, respetuosa y 100% adaptada a ti, a tu familia o al desarrollo de tus hijos.
             </p>
-
             <p className="text-base text-[#525B54] leading-relaxed">
-              No necesitas desplazarte, esperar en salas de espera o adaptar tu horario. Llego a tu domicilio con toda la confidencialidad, profesionalismo y calidez que mereces.
+              Mi objetivo es simple: que salgas de cada sesión con más claridad, con herramientas prácticas y con la tranquilidad de saber que no estás solo o sola en esto.
             </p>
 
             {/* Quality Standards Grid */}
             <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 pt-2">
               {[
-                { icon: CheckCircle2, title: 'Colegiatura Vigente', desc: 'CPsP con habilitación activa para ejercer legalmente en el Perú.' },
-                { icon: UserCheck, title: 'Identificación Previa', desc: 'Recibes mis datos y credenciales antes de la sesión para tu total confianza.' },
-                { icon: Shield, title: 'Protocolos Profesionales', desc: 'Puntualidad, presentación formal e higiene estricta en cada visita.' },
-                { icon: FileText, title: 'Secreto Profesional', desc: 'Toda la información se resguarda bajo el código de ética del psicólogo peruano.' },
+                { icon: CheckCircle2, title: 'Colegiatura vigente', desc: 'Titulada y habilitada en el CPsP para ejercer en el Perú.' },
+                { icon: UserCheck, title: 'Datos verificados', desc: 'Recibes mis datos y credenciales antes de la primera sesión.' },
+                { icon: Shield, title: 'Profesionalismo en cada visita', desc: 'Puntualidad, respeto y cuidado en cada detalle.' },
+                { icon: FileText, title: 'Secreto profesional', desc: 'Lo que se habla en sesión, se queda en sesión. Tu privacidad está protegida.' },
               ].map((item) => (
                 <div key={item.title} className="p-4 bg-[#F3EFE6] rounded-2xl border border-[#E2DACB] space-y-1">
                   <div className="flex items-center gap-2 text-xs font-bold text-[#1F2421]">
@@ -97,7 +92,7 @@ export const AboutPsychologists: React.FC<AboutPsychologistsProps> = ({ onOpenWh
                 className="btn-press px-7 py-3.5 rounded-full bg-[#3B5242] text-white font-bold text-xs sm:text-sm hover:bg-[#2C3E33] transition-colors duration-200 inline-flex items-center gap-2 shadow-xs cursor-pointer"
               >
                 <WhatsAppIcon className="w-4 h-4" />
-                <span>Conocer más por WhatsApp</span>
+                <span>Escucho tu caso por WhatsApp</span>
               </button>
             </div>
 

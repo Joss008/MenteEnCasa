@@ -26,14 +26,11 @@ export const Footer: React.FC<FooterProps> = ({
             </div>
 
             <p className="text-xs text-[#EBE4D8] leading-relaxed max-w-sm">
-              Atención psicológica personalizada a domicilio. Acompañamos el bienestar emocional de niños, adolescentes, adultos y familias en su propio espacio.
+              Acompañamos el bienestar emocional de niños, adolescentes, adultos y familias en su propio espacio, con cercanía y profesionalismo.
             </p>
 
             <div className="pt-2 flex flex-col gap-2 text-xs text-[#EBE4D8]">
-              <div className="flex items-center gap-2">
-                <MapPin className="w-4 h-4 text-[#3B5242] shrink-0" aria-hidden="true" />
-                <span>Según disponibilidad de agenda</span>
-              </div>
+            
               <div className="flex items-center gap-2">
                 <ShieldCheck className="w-4 h-4 text-[#3B5242] shrink-0" aria-hidden="true" />
                 <span>Psicóloga Colegiada y Habilitada (CPsP)</span>
@@ -48,7 +45,7 @@ export const Footer: React.FC<FooterProps> = ({
             </p>
 
             <div className="space-y-3 text-xs text-[#EBE4D8]">
-              <p>La forma más rápida de comunicarte conmigo es por WhatsApp.</p>
+              <p>La forma más rápida de comunicarte conmigo es por WhatsApp. Cuéntame qué está pasando y te oriento sin compromiso.</p>
               
               <button
                 onClick={() => onOpenWhatsapp('Hola, me gustaría agendar una sesión de psicología a domicilio.')}

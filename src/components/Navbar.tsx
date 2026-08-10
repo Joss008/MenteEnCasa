@@ -6,7 +6,7 @@ import { Logo } from './Logo';
 const NAV_SECTIONS: Array<{ id: string; label: string }> = [
   { id: 'quienes', label: 'Quiénes Somos' },
   { id: 'servicios', label: 'Servicios' },
-  { id: 'metodologia', label: 'Metodología' },
+  { id: 'metodologia', label: 'Cómo empezar' },
   { id: 'contacto', label: 'Contacto' },
 ];
 

@@ -2,3 +2,7 @@
 - Prefiere la metodología Mobile-First con Tailwind CSS: diseñar primero las clases para móvil y ajustar para escritorio mediante breakpoints (`sm:`, `md:`, `lg:`). Confidence: 0.9
 - Prefiere interfaces TypeScript explícitas para todas las props de componentes, evitando `any` implícito. Confidence: 0.9
 - Prefiere preservar la paleta de colores e identidad visual existente al realizar refactorizaciones. Confidence: 0.8
+- Prefiere que el copy de landing pages use lenguaje claro, humano y cercano — sin tecnicismos, ni lenguaje académico ni términos clínicos complejos. El tono debe priorizar beneficios, confianza, empatía y resultados esperados. Confidence: 0.9
+- Prefiere que cada bloque de copy responda un marco estructurado: ¿Qué problema resuelve? ¿Cómo ayuda? ¿Por qué confiar? ¿Qué hacer después? Confidence: 0.8
+- Prefiere evitar la repetición redundante de un mismo punto de venta (ej. "a domicilio") a lo largo de una página; mencionarlo solo donde sea estrictamente necesario. Confidence: 0.7
+- Prefiere comunicarse en español. Confidence: 0.9

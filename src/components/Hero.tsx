@@ -49,7 +49,7 @@ export const Hero: React.FC<HeroProps> = ({
                 Tu bienestar emocional comienza en tu hogar
               </h1>
               <p className="text-base sm:text-lg text-[#525B54] font-normal leading-relaxed max-w-xl">
-                Sesiones de psicología a domicilio para niños, adolescentes, adultos y familias. Sin traslados, sin estrés, con total confidencialidad y un enfoque basado en evidencia.
+                Acompañamiento psicológico para niños, adolescentes, adultos y familias en su bienestar emocional, ofreciendo atención personalizada en el lugar donde te sientes más cómodo, sin estrés y con total confidencialidad.
               </p>
             </div>
 
@@ -101,10 +101,10 @@ export const Hero: React.FC<HeroProps> = ({
           className="mt-16 pt-8 border-t border-[#E2DACB] grid grid-cols-2 md:grid-cols-4 gap-4 reveal-on-scroll"
         >
           {[
-            { icon: Home, title: 'Atención a domicilio', sub: 'En la comodidad de tu hogar' },
-            { icon: Shield, title: 'Psicóloga CPsP', sub: 'Profesional colegiada' },
-            { icon: Users, title: 'Todas las edades', sub: 'Niños, adolescentes y adultos' },
-            { icon: MapPin, title: 'Cobertura amplia', sub: 'Según disponibilidad de agenda' },
+            { icon: Home, title: 'La comodidad de tu casa', sub: 'Un espacio donde te relajas' },
+            { icon: Shield, title: 'Psicóloga colegiada CPsP', sub: 'Profesional titulada' },
+            { icon: Users, title: 'Para toda la familia', sub: 'Niños, jóvenes y adultos' },
+            { icon: MapPin, title: 'En Trujillo', sub: 'Coordinamos la zona contigo' },
           ].map((item) => (
             <div
               key={item.title}

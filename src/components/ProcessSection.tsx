@@ -45,14 +45,11 @@ export const ProcessSection: React.FC<ProcessSectionProps> = ({ onOpenWhatsapp }
         
         {/* Section Header */}
         <div className="text-center max-w-3xl mx-auto space-y-4">
-          <div className="inline-flex items-center gap-2 px-4 py-1.5 rounded-full bg-[#F3EFE6] border border-[#E2DACB] text-[#3B5242] text-xs font-semibold tracking-wider">
-            Mi Metodología
-          </div>
           <h2 className="text-3xl sm:text-4xl lg:text-5xl font-serif-editorial font-normal text-[#1F2421] tracking-tight">
-            Así trabajaremos juntos
+            Así será acompañarte, paso a paso
           </h2>
           <p className="text-base sm:text-lg text-[#525B54] leading-relaxed">
-            Un proceso sencillo, transparente y diseñado para que te sientas seguro desde el primer contacto hasta cada sesión.
+            Un proceso sencillo y sin letra pequeña: sabrás en todo momento qué esperar, qué sigue y cómo te ayudará.
           </p>
         </div>
 
@@ -97,10 +94,10 @@ export const ProcessSection: React.FC<ProcessSectionProps> = ({ onOpenWhatsapp }
         <div className="mt-14 bg-[#F3EFE6] rounded-3xl p-6 sm:p-8 border border-[#E2DACB] flex flex-col md:flex-row items-center justify-between gap-6">
           <div className="space-y-2 text-left">
             <h4 className="text-lg font-serif-editorial text-[#1F2421]">
-              ¿Tienes dudas sobre el proceso?
+              ¿Tienes dudas? Te las resuelvo antes de empezar
             </h4>
             <p className="text-xs text-[#525B54]">
-              Te envío mis credenciales y datos de identificación antes de la primera sesión para tu total confianza.
+              Escríbeme lo que necesites saber. Antes de la primera sesión te comparto mis datos y credenciales para que estés tranquilo o tranquila.
             </p>
           </div>
 

@@ -66,10 +66,10 @@ export const ServicesSection: React.FC<ServicesSectionProps> = ({ onOpenWhatsapp
         {/* Section Header */}
         <div className="text-center max-w-3xl mx-auto space-y-4 reveal-on-scroll">
           <h2 className="text-3xl sm:text-4xl lg:text-5xl font-serif-editorial font-normal text-[#1F2421] tracking-tight">
-            Servicios de Psicología
+            ¿Qué necesitas para tu familia?
           </h2>
           <p className="text-base sm:text-lg text-[#525B54] leading-relaxed max-w-2xl mx-auto">
-            Acompañamiento psicológico profesional directamente en tu hogar. Cada sesión está diseñada para que te sientas seguro, cómodo y acompañado.
+            Cada familia es distinta y cada momento también. Encuentra aquí el acompañamiento que se ajusta a lo que estás viviendo, con una profesional que te escucha y te orienta.
           </p>
         </div>
 
@@ -120,7 +120,7 @@ export const ServicesSection: React.FC<ServicesSectionProps> = ({ onOpenWhatsapp
                     className="btn-press w-full py-3 rounded-full bg-[#3B5242] hover:bg-[#2C3E33] text-white font-bold text-sm transition-colors duration-200 flex items-center justify-center gap-2 cursor-pointer"
                   >
                     <WhatsAppIcon className="w-4 h-4" />
-                    <span>Consultar</span>
+                    <span>Quiero información</span>
                   </button>
                 </div>
               </div>
