@@ -36,12 +36,12 @@ export const AboutPsychologists: React.FC<AboutPsychologistsProps> = ({ onOpenWh
 
           {/* Left Column: Photo */}
           <div className="lg:col-span-5 relative flex justify-center reveal-on-scroll">
-            <div className="absolute -inset-3 bg-[#EBE4D8] arch-top max-w-[380px] sm:max-w-[400px] w-full h-[480px] transform -rotate-2 pointer-events-none" />
-            <div className="relative arch-top max-w-[380px] sm:max-w-[400px] w-full overflow-hidden bg-white shadow-xl border-4 border-[#FAF7F2] group">
+            <div className="absolute -inset-3 bg-[#EBE4D8] arch-top max-w-[300px] sm:max-w-[400px] w-full h-[380px] sm:h-[480px] transform -rotate-2 pointer-events-none" />
+            <div className="relative arch-top max-w-[300px] sm:max-w-[400px] w-full overflow-hidden bg-[#FAF7F2] shadow-xl border-4 border-[#FAF7F2] group">
               <img
-                src="https://images.unsplash.com/photo-1573497019940-1c28c88b4f3e?auto=format&fit=crop&q=80&w=1200"
+                src="/clienta.png"
                 alt="Psicóloga profesional en su consulta"
-                className="w-full h-[460px] object-cover img-hover-zoom-subtle"
+                className="w-full h-[360px] sm:h-[460px] object-contain img-hover-zoom-subtle"
                 loading="lazy"
                 width="1200"
                 height="900"
