@@ -261,7 +261,7 @@
   left: 16px;
   z-index: 9999;
   padding: 12px 24px;
-  background: #3B5242;
+  background: #90A4AE;
   color: #FAF7F2;
   font-weight: 700;
   font-size: 14px;
@@ -277,7 +277,6 @@
   * {
     -webkit-print-color-adjust: exact !important;
     print-color-adjust: exact !important;
-    color-adjust: exact !important;
   }
 
   html, body {

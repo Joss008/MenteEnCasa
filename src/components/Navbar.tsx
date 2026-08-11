@@ -173,7 +173,7 @@ export const Navbar: React.FC<NavbarProps> = ({
                 closeDrawer();
                 onOpenWhatsapp('Hola, me gustaría agendar una sesión de psicología a domicilio.');
               }}
-              className="btn-press w-full py-3 rounded-full bg-[#3B5242] text-white font-bold text-sm flex items-center justify-center gap-2 shadow-sm"
+              className="btn-press w-full py-3 rounded-full bg-[#90A4AE] text-white font-bold text-sm flex items-center justify-center gap-2 shadow-sm"
               role="menuitem"
             >
               <WhatsAppIcon className="w-5 h-5" />

@@ -5,7 +5,8 @@
       "Shell(npx vite build 2>&1)",
       "Shell(npx tsc --noEmit 2 >& 1)",
       "Shell(npx vite build 2 >& 1)",
-      "Shell(npm:*)"
+      "Shell(npm:*)",
+      "Shell(node -e \"const fs=require('fs'); const c=fs.readFileSync('dist/assets/index-DCXpfkbV.js','utf8'); const i=c.indexOf('Terapia Infantil'); console.log(c.substring(Math.max(0,i-300), i+300));\")"
     ],
     "deny": [],
     "defaultMode": "default"

@@ -104,7 +104,7 @@ export const AboutPsychologists: React.FC<AboutPsychologistsProps> = ({ onOpenWh
             <div className="pt-3">
               <button
                 onClick={() => onOpenWhatsapp('Hola, me gustaría conocerte y agendar una sesión a domicilio.')}
-                className="btn-press px-7 py-3.5 rounded-full bg-[#3B5242] text-white font-bold text-xs sm:text-sm hover:bg-[#2C3E33] transition-colors duration-200 inline-flex items-center gap-2 shadow-xs cursor-pointer"
+                className="btn-press px-7 py-3.5 rounded-full bg-[#90A4AE] text-white font-bold text-xs sm:text-sm hover:bg-[#78909C] transition-colors duration-200 inline-flex items-center gap-2 shadow-xs cursor-pointer"
               >
                 <WhatsAppIcon className="w-4 h-4" />
                 <span>Agendar una sesión</span>

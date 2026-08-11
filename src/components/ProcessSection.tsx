@@ -59,15 +59,15 @@ export const ProcessSection: React.FC<ProcessSectionProps> = ({ onOpenWhatsapp }
             <div 
               key={idx}
               id={`process-step-${idx}`}
-              className="bg-[#F3EFE6] p-7 rounded-3xl border border-[#E2DACB] shadow-xs relative flex flex-col justify-between group hover:border-[#3B5242]/50 transition-all duration-300 reveal-on-scroll"
+              className="bg-[#F3EFE6] p-7 rounded-3xl border border-[#E2DACB] shadow-xs relative flex flex-col justify-between group hover:border-[#78909C]/50 transition-all duration-300 reveal-on-scroll"
               style={{ transitionDelay: `${idx * 80}ms` }}
             >
               <div>
                 <div className="flex items-center justify-between mb-4">
-                  <span className="text-3xl font-serif-editorial text-[#3B5242]/40 group-hover:text-[#3B5242] transition-colors">
+                  <span className="text-3xl font-serif-editorial text-[#78909C]/40 group-hover:text-[#78909C] transition-colors">
                     {step.step}
                   </span>
-                  <div className="w-11 h-11 arch-top bg-[#3B5242] text-[#FAF7F2] flex items-center justify-center shadow-xs">
+                  <div className="w-11 h-11 arch-top bg-[#78909C] text-[#FAF7F2] flex items-center justify-center shadow-xs">
                     {getStepIcon(step.icon)}
                   </div>
                 </div>
@@ -104,7 +104,7 @@ export const ProcessSection: React.FC<ProcessSectionProps> = ({ onOpenWhatsapp }
           <button
             id="process-whatsapp-cta"
             onClick={() => onOpenWhatsapp('Hola, me gustaría coordinar una cita y conocer más sobre tu metodología de trabajo.')}
-            className="shrink-0 px-7 py-3.5 rounded-full bg-[#3B5242] hover:bg-[#2C3E33] text-white font-bold text-xs sm:text-sm transition-all shadow-xs flex items-center gap-2 btn-press cursor-pointer"
+            className="shrink-0 px-7 py-3.5 rounded-full bg-[#90A4AE] hover:bg-[#78909C] text-white font-bold text-xs sm:text-sm transition-all shadow-xs flex items-center gap-2 btn-press cursor-pointer"
           >
             <WhatsAppIcon className="w-4 h-4" />
             <span>Coordinar cita por WhatsApp</span>
