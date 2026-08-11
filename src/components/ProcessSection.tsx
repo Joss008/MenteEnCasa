@@ -40,7 +40,7 @@ export const ProcessSection: React.FC<ProcessSectionProps> = ({ onOpenWhatsapp }
   }, []);
 
   return (
-    <section id="metodologia" className="py-24 bg-[#FAF7F2]">
+    <section id="metodologia" className="py-12 sm:py-24 bg-[#FAF7F2]">
       <div ref={sectionRef} className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         
         {/* Section Header */}

@@ -56,24 +56,6 @@ export const Footer: React.FC<FooterProps> = ({
               </button>
             </div>
           </div>
-
-          {/* Emergency */}
-          <div className="lg:col-span-3 space-y-4 text-left">
-            <p className="font-bold text-xs text-[#FAF7F2] uppercase tracking-wider">
-              Emergencias
-            </p>
-
-            <div className="bg-[#546E7A] p-4 rounded-2xl border border-[#78909C] space-y-2 text-xs text-[#EBE4D8]">
-              <p className="font-bold text-[#FAF7F2] flex items-center gap-1.5">
-                <PhoneCall className="w-3.5 h-3.5 text-[#90A4AE]" aria-hidden="true" />
-                <span>Línea de Emergencias Perú:</span>
-              </p>
-              <p className="text-[11px] leading-relaxed text-[#EBE4D8]/90">
-                Brindo atención ambulatoria programada. En caso de emergencias psiquiátricas inmediatas, comunícate con la <strong>Línea 113 (Minsa)</strong> o acude al hospital más cercano.
-              </p>
-            </div>
-          </div>
-
         </div>
 
         {/* Bottom Credits & Copyright */}

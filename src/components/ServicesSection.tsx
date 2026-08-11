@@ -60,7 +60,7 @@ export const ServicesSection: React.FC<ServicesSectionProps> = ({ onOpenWhatsapp
   }, []);
 
   return (
-    <section id="servicios" className="py-20 bg-[#FAF7F2]">
+    <section id="servicios" className="py-12 sm:py-20 bg-[#FAF7F2]">
       <div ref={sectionRef} className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
 
         {/* Section Header */}

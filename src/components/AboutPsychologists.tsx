@@ -29,7 +29,7 @@ export const AboutPsychologists: React.FC<AboutPsychologistsProps> = ({ onOpenWh
   }, []);
 
   return (
-    <section id="quienes" className="py-20 bg-[#FAF7F2] border-t border-[#E2DACB] overflow-hidden">
+    <section id="quienes" className="py-12 sm:py-20 bg-[#FAF7F2] border-t border-[#E2DACB] overflow-hidden">
       <div ref={sectionRef} className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
 
         <div className="grid grid-cols-1 lg:grid-cols-12 gap-12 lg:gap-10 items-center">
@@ -101,7 +101,7 @@ export const AboutPsychologists: React.FC<AboutPsychologistsProps> = ({ onOpenWh
             </div>
 
             {/* CTA */}
-            <div className="pt-3">
+            <div className="pt-3 flex justify-center sm:justify-start">
               <button
                 onClick={() => onOpenWhatsapp('Hola, me gustaría conocerte y agendar una sesión a domicilio.')}
                 className="btn-press px-7 py-3.5 rounded-full bg-[#90A4AE] text-white font-bold text-xs sm:text-sm hover:bg-[#78909C] transition-colors duration-200 inline-flex items-center gap-2 shadow-xs cursor-pointer"
