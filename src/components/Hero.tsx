@@ -98,7 +98,7 @@ export const Hero: React.FC<HeroProps> = ({
         {/* Bottom Trust Strip */}
         <div
           ref={trustRef}
-          className="hidden sm:block mt-16 pt-8 border-t border-[#E2DACB] grid grid-cols-2 md:grid-cols-4 gap-4 reveal-on-scroll"
+          className="mt-16 pt-8 border-t border-[#E2DACB] grid grid-cols-2 md:grid-cols-4 gap-4 reveal-on-scroll"
         >
           {[
             { icon: Home, title: 'Atención 100% online', sub: 'Conéctate desde donde estés' },
@@ -115,7 +115,7 @@ export const Hero: React.FC<HeroProps> = ({
               </div>
               <div>
                 <p className="text-xs sm:text-sm font-bold text-[#1F2421]">{item.title}</p>
-                <p className="text-[11px] text-[#615C47]">{item.sub}</p>
+                <p className="hidden sm:block text-[11px] text-[#615C47]">{item.sub}</p>
               </div>
             </div>
           ))}
