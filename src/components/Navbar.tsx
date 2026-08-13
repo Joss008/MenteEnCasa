@@ -4,8 +4,9 @@ import { WhatsAppIcon } from './WhatsAppIcon';
 import { Logo } from './Logo';
 
 const NAV_SECTIONS: Array<{ id: string; label: string }> = [
-  { id: 'quienes', label: 'Quiénes Somos' },
+  { id: 'hero', label: 'Inicio' },
   { id: 'servicios', label: 'Servicios' },
+  { id: 'quienes', label: 'Quiénes Somos' },
   { id: 'metodologia', label: 'Cómo empezar' },
   { id: 'contacto', label: 'Contacto' },
 ];
@@ -32,28 +33,44 @@ export const Navbar: React.FC<NavbarProps> = ({
 
   useEffect(() => {
     const sectionIds = NAV_SECTIONS.map(s => s.id);
-    const observers: IntersectionObserver[] = [];
+    const elements = sectionIds.map(id => document.getElementById(id)).filter(Boolean) as HTMLElement[];
+    if (elements.length === 0) return;
 
-    sectionIds.forEach(id => {
-      const el = document.getElementById(id);
-      if (!el) return;
+    const handleScroll = () => {
+      const scrollY = window.scrollY;
+      const winH = window.innerHeight;
+      const docH = document.documentElement.scrollHeight;
 
-      const observer = new IntersectionObserver(
-        (entries) => {
-          entries.forEach(entry => {
-            if (entry.isIntersecting) {
-              setActiveSection(id);
-            }
-          });
-        },
-        { rootMargin: '-20% 0px -70% 0px' }
-      );
+      if (scrollY < winH * 0.3) {
+        setActiveSection('hero');
+        return;
+      }
+      if (scrollY + winH >= docH - 100) {
+        setActiveSection('contacto');
+        return;
+      }
+    };
 
-      observer.observe(el);
-      observers.push(observer);
-    });
+    const observer = new IntersectionObserver(
+      (entries) => {
+        handleScroll();
+        const visible = entries
+          .filter(e => e.isIntersecting)
+          .sort((a, b) => b.intersectionRatio - a.intersectionRatio);
+        if (visible.length > 0) {
+          setActiveSection(visible[0].target.id);
+        }
+      },
+      { rootMargin: '-40% 0px -55% 0px', threshold: [0, 0.25, 0.5, 0.75, 1] }
+    );
 
-    return () => observers.forEach(o => o.disconnect());
+    elements.forEach(el => observer.observe(el));
+    window.addEventListener('scroll', handleScroll, { passive: true });
+
+    return () => {
+      observer.disconnect();
+      window.removeEventListener('scroll', handleScroll);
+    };
   }, []);
 
   useEffect(() => {

@@ -46,13 +46,13 @@ export default function App() {
           onScrollToSection={handleScrollToSection}
         />
 
-        {/* 2. Quiénes somos */}
-        <AboutPsychologists
+        {/* 2. Servicios */}
+        <ServicesSection
           onOpenWhatsapp={handleOpenWhatsapp}
         />
 
-        {/* 3. Servicios */}
-        <ServicesSection
+        {/* 3. Quiénes somos */}
+        <AboutPsychologists
           onOpenWhatsapp={handleOpenWhatsapp}
         />
 
